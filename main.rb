@@ -5,7 +5,8 @@ require_relative 'lib/Template'
 
 require_relative 'lib/DrawBoard'
 require_relative 'lib/HumanCodeMaker' 
-require_relative 'lib/Computer' 
+require_relative 'lib/Computer'  
+
 
 class GameManager    
   include GameInstructions
