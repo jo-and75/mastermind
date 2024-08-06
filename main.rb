@@ -1,11 +1,11 @@
-require_relative 'DrawBoard'
-require_relative 'CodeMaker' 
-require_relative 'CodeBreaker'  
-require_relative 'Template'
+require_relative 'lib/DrawBoard'
+require_relative 'lib/CodeMaker' 
+require_relative 'lib/CodeBreaker'  
+require_relative 'lib/Template'
 
-require_relative 'DrawBoard'
-require_relative 'HumanCodeMaker' 
-require_relative 'Computer' 
+require_relative 'lib/DrawBoard'
+require_relative 'lib/HumanCodeMaker' 
+require_relative 'lib/Computer' 
 
 class GameManager    
   include GameInstructions
